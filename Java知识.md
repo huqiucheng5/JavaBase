@@ -22,11 +22,39 @@ Java基础
             |                                  |---HashSet底层是哈希表、无序、线程不同步、高效
             |---Set(无序、元素不可重复、无索引)| 
                                                |---TreeSet底层是二叉树、可对元素进行排序，默认是自然顺序
+                                               
             |---HashMap底层是哈希表结构、允许使用null键和null值、不同步、效率高
          Map|---HashTable底层是哈希表结构、不可存入null键和null值、同步
             |---TreeMap底层是二叉树、可排序、不同步
   
 5.IO流
+
+  字节流：InputStream、OutputStream
+  
+  字符流：Reader、Writer
+  
+          Reader:读取字符流的抽象类
+          
+          BufferedReader:将字符存入缓冲区，再读取
+          
+          LineNumberReader:带行号的字符缓冲输入流
+          
+          InputStreamReader:转换流，字节流和字符流的桥梁，多在编码的地方使用
+          
+          FileReader:读取字符文件的便捷类
+          
+          Writer:写入字符流的抽象类
+          
+          BufferedWriter:将字符存入缓冲区，再写入
+          
+          OutputStreamWriter:转换流，字节流和字符流的桥梁，多在编码的地方使用
+          
+          FileWriter:写入字符文件的便捷类
+          
+InputStream:字节输入流的所有类的超类
+
+     
+          
 
 
 
